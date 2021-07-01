@@ -1,0 +1,514 @@
+/* ------- all variables -------- */
+
+$bg_body : #f5f6fa;
+$second_bg_color :  #3C3B3D;
+$font_color : #3d3d3d;
+$royal_color : #8395a7;
+$shadow_color : #a4b0be;
+$main_font : 'Poppins', sans-serif;
+$logo_font : 'Squada One', cursive;
+
+/* ----------- body ----------- */
+
+body{
+    background-color: $bg_body;
+}
+
+.social-div-1{
+    display: none;
+}
+
+::placeholder{
+    color: $royal_color!important;
+    font-size: 1.3rem;
+    &:focus{
+        color: $font_color!important;
+    }
+}
+
+input[type="text"]{
+    color: $font_color;
+    margin-bottom: 7%;
+    font-size: 1.3rem;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid $royal_color;
+}
+
+input[type="text"]:focus{
+    color: $font_color;
+    background: transparent;
+    border-bottom: 3px solid $font_color;
+    box-shadow: none;
+}
+
+input[type="email"]{
+    color: $font_color;
+    font-size: 1.3rem;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid $royal_color;
+}
+
+input[type="email"]:focus{
+    color: $font_color;
+    background: transparent;
+    border-bottom: 3px solid $font_color;
+    box-shadow: none;
+}
+
+input:focus::placeholder{
+    color: transparent!important;
+    transition: transform 2s ease-in-out;
+}
+
+textarea:focus::placeholder{
+    color: transparent!important;
+    transition: transform 2s ease-in-out;
+}
+
+
+/* ======== Navbar section =========== */
+
+.navbar{
+    background-color: $second_bg_color;
+    padding: 0 10%;
+}
+
+.navbar-brand{
+    font-family: $logo_font;
+    font-size: 2.3rem;
+    color: $royal_color;
+}
+
+.nav-link{
+    color: $bg_body!important;
+    font-size: 1.2rem;
+    font-weight: 600;
+    &:active {
+        color: $royal_color!important;
+    }
+    &:hover{
+        border-bottom: 2px solid $shadow_color;
+    }
+    .fas {
+        display: none;
+    }
+}
+
+.profile-nav {
+    display: none;
+}
+
+.fas{
+    font-size: 2.5rem;
+    color: $bg_body;
+    &:active{
+        color: $royal_color;
+    }
+}
+
+.navbar-toggler{
+    border: 0;
+    outline: none!important;
+}
+
+/* ============ Container fluid =========== */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+.home-row{
+    padding-top: 6%;
+}
+
+p{
+    font-family: $main_font;
+    font-size: 2.2em;
+    color: $font_color;
+    font-weight: bold;
+    line-height: 1;
+    span{
+        color: #2e86de;
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 2px;
+    }
+}
+.btn{
+    font-family: $main_font;
+    margin-top: 10%;
+    border: none;
+    box-shadow: 0px 3px 10px -5px #0f1123;
+    &:hover{
+        box-shadow: 0px 3px 15px -5px #0f1123;
+    }
+    &:active{
+        box-shadow: none!important;
+    }
+    .fas{
+        color: $bg_body;
+        font-size: 1.4rem;
+        margin-left: 7px;
+    }
+
+}
+.fab{
+    color: $font_color;
+    margin: 5%;
+    font-size: 1.7rem;
+    &:hover{
+        cursor: pointer;
+        color: $royal_color;
+    }
+}
+.social-div{
+    margin-top: 13%;
+}
+#Home{
+    
+    .img-div{
+        padding: 0%;
+    }
+    img{
+        width: 90%;
+    }
+    .contact-btn{
+        display: none;
+    }
+}
+
+
+/* ============== About Section ============= */
+
+#About{
+
+    h2 {
+        text-align: center;
+        color: $font_color;
+        font-family: $main_font;
+        letter-spacing: 1.5px;
+        margin-bottom: 5%;
+    }
+    p {
+        font-size: 1.3rem;
+        line-height: 1.5;
+        font-weight: 250;
+        margin: 20% 0;
+    }
+    .img-div {
+        text-align: center;
+        padding: 10%;
+    }
+    .about-div {
+        padding-top: 3%;
+    }
+    img {
+        width: 90%;
+    }
+}
+
+
+/* ============== Skills Section ============ */
+
+#Skills{
+    h2 {
+        text-align: center;
+        color: $font_color;
+        font-family: $main_font;
+        letter-spacing: 1.5px;
+        margin-bottom: 5%;
+    }
+    .skill-icon{
+        color: $bg_body;
+        text-align: center;
+        margin: 15%;
+    }
+    p{
+        color: $bg_body;
+        font-size: 0.8rem;
+        font-weight: normal;
+        line-height: 1.5;
+    }
+    .col-lg-4{
+        padding: 4%;
+    }
+    .card{
+        height: 100%;
+        box-shadow: 0px 3px 10px -5px #0f1123;
+        color: $font_color;
+        img{
+            width: 50%;
+            display: block;
+            margin: 10% auto;
+        }
+        &:hover{
+            box-shadow: 0px 3px 15px -5px #0f1123;
+            cursor: pointer;
+        }
+    }
+    .card-text{
+        color: $font_color;
+    }
+}
+
+/* ======================== Latest Projects Section ==================== */
+
+#LatestProjects{
+
+    padding-top: 8%;
+    
+    h2 {
+        text-align: center;
+        color: $font_color;
+        font-family: $main_font;
+        letter-spacing: 1px;
+        margin-bottom: 6%;
+    }
+    .carousel-item{
+        padding: 7% 15%;
+        max-height: 60vh;
+    }
+    img {
+        width: 300px;
+        height: 300px;
+    }
+    .one{
+        background-color: #a1cae2;
+    }
+    .two{
+        background-color: #8ac4d0;
+    }
+    .three{
+        background-color: #79a3b1;
+    }
+
+    
+    .btn{
+        font-size: 1.3rem;
+        font-weight: bold;
+        align-items: center;
+
+        .fas{
+            font-size: 1.3rem;
+            margin-left: 15%;
+            color: white;
+        }
+    }
+
+    .project-div{
+        p{
+            color: $bg_body;
+        }
+    }
+}
+
+/* ============================== Contact section ==================== */
+
+#Contact{
+    h2 {
+        text-align: center;
+        color: $font_color;
+        font-family: $main_font;
+        letter-spacing: 1.5px;
+        margin-bottom: 5%;
+    }
+    .form-container{
+        padding: 0 25%;
+        margin-top: 8%;
+        button{
+            display: block;
+            margin: 10% auto 0 auto;
+        }
+        textarea{
+            color: $font_color;
+            margin-bottom: 7%;
+            font-size: 1.3rem;
+            background: transparent!important;
+            border: 3px solid $royal_color;
+            border-radius: 15px!important;
+            &:focus{
+                color: $font_color;
+                border: 3px solid $font_color;
+                box-shadow: none;
+            }
+        }
+    }
+    .form-control{
+        border-radius: 0;
+    }
+    .btn{
+        font-size: 1.3rem;
+        font-weight: bold;
+        align-items: center;
+    }
+}
+
+/* ===================== Footer Section ============== */
+
+#Footer{
+    background-color: $second_bg_color;
+}
+
+.footer-container{
+    padding: 2% 15%;
+    text-align: center;
+
+    .fab{
+        margin: 2%;
+        font-size: 1.5rem;
+        color: $bg_body;
+    }
+
+    h2{
+        font-family: $logo_font;
+        color: $bg_body;
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 1rem;
+        margin-top: 4%;
+        color: $bg_body;
+    }
+}
+
+/* ------------- mobile-- Version  ---------------------- */
+
+@media (min-width: 320px) and (max-width: 425px){
+
+    .social-div-1{
+        display: block;
+        margin-top: 20%;
+    }
+    .social-div{
+        display: none;
+    }
+    #Home{
+        padding-top: 20%;
+
+        .nav-link{
+            padding: 0;
+            margin: 5%;
+            .fas {
+                display: inline;
+                font-size: 1.2rem;
+                margin-right: 10%;
+            }
+        }
+        ul :last-child{
+            margin-bottom: 10%;
+        }
+        .img-div{
+            margin-top: 10%;
+        }
+
+        .fab{
+            margin: 10%;
+        }
+        .content-div{
+            .btn{
+                display: none;
+            }
+        }
+        .contact-btn{
+            display: block;
+        }
+        .profile-nav {
+            display: block;
+            line-height: 1.2;
+            border-bottom: 2px solid $royal_color;
+            padding-left: 0!important;
+            margin-bottom: 15%;
+            
+            a {
+                border-left: none;
+                padding: 0;
+                color: $bg_body!important;
+                span{
+                    font-size: 0.9rem;
+                }
+            }
+        }
+        .profile-nav-img{
+            width: 45px;
+            height: auto;
+            float: left;
+            margin-right: 20px;
+        }
+    }
+
+    #About{
+        padding-top: 20%;
+        .about-div{
+            margin-top: 10%;
+            p{
+                font-size: 1rem;
+                margin: 0 0 0% 0;
+            }
+        }
+        .img-div{
+            padding: 15%;
+        }
+    }
+
+    #Skills{
+        padding-top: 20%;
+        h2{
+            margin-bottom: 20%;
+        }
+        .skill-card{
+            margin-bottom: 6%;
+        }
+    }
+
+    #LatestProjects{
+        padding-top: 25%;
+
+        h2{
+            margin-bottom: 20%;
+        }
+
+        .project-div{
+            padding: 30% 0;
+            p{
+                font-size: 1.5rem;
+            }
+            
+        }
+
+        .btn{
+            font-size: 1rem;
+            .fas{
+                font-size: 1rem;
+            }
+        }
+    }
+
+    #Contact{
+        padding-top: 20%;
+        .form-container{
+            padding: 20% 0;
+            button{
+                margin-top: 20%;
+                margin-bottom: 5%;
+                font-size: 1.2rem;
+            }
+        }
+        ::placeholder{
+            font-size: 1.2rem;
+        }
+    }
+
+    #Footer{
+        h2{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 0.7rem;
+        }
+        .fab{
+            font-size: 1.1rem;
+        }
+    }
+}

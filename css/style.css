@@ -1,0 +1,606 @@
+/* ------- all variables -------- */
+/* ----------- body ----------- */
+body {
+  background-color: #f5f6fa;
+}
+
+html {
+  scroll-behavior : smooth;
+}
+
+.social-div-1 {
+  display: none;
+}
+
+::-webkit-input-placeholder {
+  color: #8395a7 !important;
+  font-size: 1.3rem;
+}
+
+:-ms-input-placeholder {
+  color: #8395a7 !important;
+  font-size: 1.3rem;
+}
+
+::-ms-input-placeholder {
+  color: #8395a7 !important;
+  font-size: 1.3rem;
+}
+
+::placeholder {
+  color: #8395a7 !important;
+  font-size: 1.3rem;
+}
+
+::-webkit-input-placeholder:focus {
+  color: #3d3d3d !important;
+}
+
+:-ms-input-placeholder:focus {
+  color: #3d3d3d !important;
+}
+
+::-ms-input-placeholder:focus {
+  color: #3d3d3d !important;
+}
+
+::placeholder:focus {
+  color: #3d3d3d !important;
+}
+
+input[type="text"] {
+  color: #3d3d3d;
+  margin-bottom: 7%;
+  font-size: 1.3rem;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid #8395a7;
+}
+
+input[type="text"]:focus {
+  color: #3d3d3d;
+  background: transparent;
+  border-bottom: 3px solid #3d3d3d;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input[type="email"] {
+  color: #3d3d3d;
+  font-size: 1.3rem;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid #8395a7;
+}
+
+input[type="email"]:focus {
+  color: #3d3d3d;
+  background: transparent;
+  border-bottom: 3px solid #3d3d3d;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent !important;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: -webkit-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+}
+
+input:focus:-ms-input-placeholder {
+  color: transparent !important;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: -webkit-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+}
+
+input:focus::-ms-input-placeholder {
+  color: transparent !important;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: -webkit-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+}
+
+input:focus::placeholder {
+  color: transparent !important;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: -webkit-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+}
+
+textarea:focus::-webkit-input-placeholder {
+  color: transparent !important;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: -webkit-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+}
+
+textarea:focus:-ms-input-placeholder {
+  color: transparent !important;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: -webkit-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+}
+
+textarea:focus::-ms-input-placeholder {
+  color: transparent !important;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: -webkit-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+}
+
+textarea:focus::placeholder {
+  color: transparent !important;
+  -webkit-transition: -webkit-transform 2s ease-in-out;
+  transition: -webkit-transform 2s ease-in-out;
+  transition: transform 2s ease-in-out;
+  transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+}
+
+/* ======== Navbar section =========== */
+.navbar {
+  background-color: #3C3B3D;
+  padding: 0 10%;
+}
+
+.navbar-brand {
+  font-family: "Squada One", cursive;
+  font-size: 2.3rem;
+  color: #8395a7;
+}
+
+.nav-link {
+  color: #f5f6fa !important;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav-link:active {
+  color: #8395a7 !important;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #a4b0be;
+}
+
+.nav-link .fas {
+  display: none;
+}
+
+.profile-nav {
+  display: none;
+}
+
+.fas {
+  font-size: 2.5rem;
+  color: #f5f6fa;
+}
+
+.fas:active {
+  color: #8395a7;
+}
+
+.navbar-toggler {
+  border: 0;
+  outline: none !important;
+}
+
+/* ============ Container fluid =========== */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.home-row {
+  padding-top: 6%;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.2em;
+  color: #3d3d3d;
+  font-weight: bold;
+  line-height: 1;
+}
+
+p span {
+  color: #2e86de;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10%;
+  border: none;
+  -webkit-box-shadow: 0px 3px 10px -5px #0f1123;
+          box-shadow: 0px 3px 10px -5px #0f1123;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0px 3px 15px -5px #0f1123;
+          box-shadow: 0px 3px 15px -5px #0f1123;
+}
+
+.btn:active {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn .fas {
+  color: #f5f6fa;
+  font-size: 1.4rem;
+  margin-left: 7px;
+}
+
+.fab {
+  color: #3d3d3d;
+  margin: 5%;
+  font-size: 1.7rem;
+}
+
+.fab:hover {
+  cursor: pointer;
+  color: #8395a7;
+}
+
+.social-div {
+  margin-top: 13%;
+}
+
+#Home .img-div {
+  padding: 0%;
+}
+
+#Home img {
+  width: 90%;
+}
+
+#Home .contact-btn {
+  display: none;
+}
+
+/* ============== About Section ============= */
+#About h2 {
+  text-align: center;
+  color: #3d3d3d;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.5px;
+  margin-bottom: 5%;
+}
+
+#About p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-weight: 250;
+  margin: 20% 0;
+}
+
+#About .img-div {
+  text-align: center;
+  padding: 10%;
+}
+
+#About .about-div {
+  padding-top: 3%;
+}
+
+#About img {
+  width: 90%;
+}
+
+/* ============== Skills Section ============ */
+#Skills h2 {
+  text-align: center;
+  color: #3d3d3d;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.5px;
+  margin-bottom: 5%;
+}
+
+#Skills .skill-icon {
+  color: #f5f6fa;
+  text-align: center;
+  margin: 15%;
+}
+
+#Skills p {
+  color: #f5f6fa;
+  font-size: 0.8rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+#Skills .col-lg-4 {
+  padding: 4%;
+}
+
+#Skills .card {
+  height: 100%;
+  -webkit-box-shadow: 0px 3px 10px -5px #0f1123;
+          box-shadow: 0px 3px 10px -5px #0f1123;
+  color: #3d3d3d;
+}
+
+#Skills .card img {
+  width: 50%;
+  display: block;
+  margin: 10% auto;
+}
+
+#Skills .card:hover {
+  -webkit-box-shadow: 0px 3px 15px -5px #0f1123;
+          box-shadow: 0px 3px 15px -5px #0f1123;
+  cursor: pointer;
+}
+
+#Skills .card-text {
+  color: #3d3d3d;
+}
+
+/* ======================== Latest Projects Section ==================== */
+#LatestProjects {
+  padding-top: 8%;
+}
+
+#LatestProjects h2 {
+  text-align: center;
+  color: #3d3d3d;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  margin-bottom: 6%;
+}
+
+#LatestProjects .carousel-item {
+  padding: 7% 15%;
+  max-height: 60vh;
+}
+
+#LatestProjects img {
+  width: 300px;
+  height: 300px;
+}
+
+#LatestProjects .one {
+  background-color: #a1cae2;
+}
+
+#LatestProjects .two {
+  background-color: #8ac4d0;
+}
+
+#LatestProjects .three {
+  background-color: #79a3b1;
+}
+
+#LatestProjects .btn {
+  font-size: 1.3rem;
+  font-weight: bold;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#LatestProjects .btn .fas {
+  font-size: 1.3rem;
+  margin-left: 15%;
+  color: white;
+}
+
+#LatestProjects .project-div p {
+  color: #f5f6fa;
+}
+
+/* ============================== Contact section ==================== */
+#Contact h2 {
+  text-align: center;
+  color: #3d3d3d;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.5px;
+  margin-bottom: 5%;
+}
+
+#Contact .form-container {
+  padding: 0 25%;
+  margin-top: 8%;
+}
+
+#Contact .form-container button {
+  display: block;
+  margin: 10% auto 0 auto;
+}
+
+#Contact .form-container textarea {
+  color: #3d3d3d;
+  margin-bottom: 7%;
+  font-size: 1.3rem;
+  background: transparent !important;
+  border: 3px solid #8395a7;
+  border-radius: 15px !important;
+}
+
+#Contact .form-container textarea:focus {
+  color: #3d3d3d;
+  border: 3px solid #3d3d3d;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#Contact .form-control {
+  border-radius: 0;
+}
+
+#Contact .btn {
+  font-size: 1.3rem;
+  font-weight: bold;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* ===================== Footer Section ============== */
+#Footer {
+  background-color: #3C3B3D;
+}
+
+.footer-container {
+  padding: 2% 15%;
+  text-align: center;
+}
+
+.footer-container .fab {
+  margin: 2%;
+  font-size: 1.5rem;
+  color: #f5f6fa;
+}
+
+.footer-container h2 {
+  font-family: "Squada One", cursive;
+  color: #f5f6fa;
+  font-size: 3rem;
+}
+
+.footer-container p {
+  font-size: 1rem;
+  margin-top: 4%;
+  color: #f5f6fa;
+}
+
+/* ------------- mobile-- Version  ---------------------- */
+@media (min-width: 320px) and (max-width: 425px) {
+  .social-div-1 {
+    display: block;
+    margin-top: 20%;
+  }
+  .social-div {
+    display: none;
+  }
+  #Home {
+    padding-top: 20%;
+  }
+  #Home .nav-link {
+    padding: 0;
+    margin: 5%;
+  }
+  #Home .nav-link .fas {
+    display: inline;
+    font-size: 1.2rem;
+    margin-right: 10%;
+  }
+  #Home ul :last-child {
+    margin-bottom: 10%;
+  }
+  #Home .img-div {
+    margin-top: 10%;
+  }
+  #Home .fab {
+    margin: 10%;
+  }
+  #Home .content-div .btn {
+    display: none;
+  }
+  #Home .contact-btn {
+    display: block;
+  }
+  #Home .profile-nav {
+    display: block;
+    line-height: 1.2;
+    border-bottom: 2px solid #8395a7;
+    padding-left: 0 !important;
+    margin-bottom: 15%;
+  }
+  #Home .profile-nav a {
+    border-left: none;
+    padding: 0;
+    color: #f5f6fa !important;
+  }
+  #Home .profile-nav a span {
+    font-size: 0.9rem;
+  }
+  #Home .profile-nav-img {
+    width: 45px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+  }
+  #About {
+    padding-top: 20%;
+  }
+  #About .about-div {
+    margin-top: 10%;
+  }
+  #About .about-div p {
+    font-size: 1rem;
+    margin: 0 0 0% 0;
+  }
+  #About .img-div {
+    padding: 15%;
+  }
+  #Skills {
+    padding-top: 20%;
+  }
+  #Skills h2 {
+    margin-bottom: 20%;
+  }
+  #Skills .skill-card {
+    margin-bottom: 6%;
+  }
+  #LatestProjects {
+    padding-top: 25%;
+  }
+  #LatestProjects h2 {
+    margin-bottom: 20%;
+  }
+  #LatestProjects .project-div {
+    padding: 30% 0;
+  }
+  #LatestProjects .project-div p {
+    font-size: 1.5rem;
+  }
+  #LatestProjects .btn {
+    font-size: 1rem;
+  }
+  #LatestProjects .btn .fas {
+    font-size: 1rem;
+  }
+  #Contact {
+    padding-top: 20%;
+  }
+  #Contact .form-container {
+    padding: 20% 0;
+  }
+  #Contact .form-container button {
+    margin-top: 20%;
+    margin-bottom: 5%;
+    font-size: 1.2rem;
+  }
+  #Contact ::-webkit-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #Contact :-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #Contact ::-ms-input-placeholder {
+    font-size: 1.2rem;
+  }
+  #Contact ::placeholder {
+    font-size: 1.2rem;
+  }
+  #Footer h2 {
+    font-size: 2rem;
+  }
+  #Footer p {
+    font-size: 0.7rem;
+  }
+  #Footer .fab {
+    font-size: 1.1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
