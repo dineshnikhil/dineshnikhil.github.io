@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/dineshnikhil.github.io/static/css/main.cb2325ed.css",
-    "main.js": "/dineshnikhil.github.io/static/js/main.d95b8225.js",
-    "static/js/787.f0d1be27.chunk.js": "/dineshnikhil.github.io/static/js/787.f0d1be27.chunk.js",
-    "static/media/meraPic-min.jpg": "/dineshnikhil.github.io/static/media/meraPic-min.1f5d7005b114b3265769.jpg",
-    "index.html": "/dineshnikhil.github.io/index.html",
-    "main.cb2325ed.css.map": "/dineshnikhil.github.io/static/css/main.cb2325ed.css.map",
-    "main.d95b8225.js.map": "/dineshnikhil.github.io/static/js/main.d95b8225.js.map",
-    "787.f0d1be27.chunk.js.map": "/dineshnikhil.github.io/static/js/787.f0d1be27.chunk.js.map"
+    "main.css": "/static/css/main.cb2325ed.css",
+    "main.js": "/static/js/main.597061cc.js",
+    "static/js/787.f0d1be27.chunk.js": "/static/js/787.f0d1be27.chunk.js",
+    "static/media/meraPic-min.jpg": "/static/media/meraPic-min.1f5d7005b114b3265769.jpg",
+    "index.html": "/index.html",
+    "main.cb2325ed.css.map": "/static/css/main.cb2325ed.css.map",
+    "main.597061cc.js.map": "/static/js/main.597061cc.js.map",
+    "787.f0d1be27.chunk.js.map": "/static/js/787.f0d1be27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb2325ed.css",
-    "static/js/main.d95b8225.js"
+    "static/js/main.597061cc.js"
   ]
 }
