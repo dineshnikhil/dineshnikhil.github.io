@@ -1,0 +1,57 @@
+.about {
+    padding: 7% 20%;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+}
+
+.aboutParent {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.aboutOneDiv {
+    width: 70%;
+    padding: 0% 3% 0% 0%;
+}
+
+.aboutTwoDiv {
+    width: 30%;
+}
+
+.aboutTwoDiv img {
+    width: 100%;
+    height: auto;
+}
+
+.socialHandles {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.socialHandles button {
+    padding: 1.5%;
+    width: 3rem;
+    height: 3rem;
+
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+
+    margin-right: 3%;
+
+    background-color: black;
+    color: #F5F5F5;
+}
+
+.socialHandles button:hover {
+    background-color: #F5F5F5;
+    color: #D33A3A;
+
+    cursor: pointer;
+}

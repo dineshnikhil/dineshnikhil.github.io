@@ -16,7 +16,7 @@ function Home() {
         </div>
         <div className={classes.quoteDiv}>
             <h1>Brings ideas to life with code.</h1>
-            <h2>Web Developer. Googler. Content Creator. Whimsical Specialist. International Speaker.</h2>
+            <h2>Web Developer. Data Engineer. </h2>
         </div>
     </div>
     

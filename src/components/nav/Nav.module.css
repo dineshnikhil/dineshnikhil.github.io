@@ -1,9 +1,17 @@
-.navbar {
-    padding: 2% 4%;
-    background-color: #141C1F;
+nav {
+    background-color: #141c1f9c;
 
     display: flex;
-    justify-content: space-between;
+	justify-content: space-around;
+	padding: 1.4rem 3.5rem;
+
+	width: 100%;
+	position: fixed;
+	top: 0;
+
+
+    /* background-color: rgba(255, 255, 255, .15);   */
+    backdrop-filter: blur(7px);
 }
 
 .navLinks {
@@ -12,7 +20,7 @@
 
 .navLinks a {
     text-decoration: none;
-    color: white;
+    color: #B3B3B3;
     padding: 0 5%;
 
     font-weight: bold;
