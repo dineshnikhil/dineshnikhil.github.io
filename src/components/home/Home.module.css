@@ -8,13 +8,18 @@
     display: flex;
 }
 
+
 .homeImageDiv img {
-    width: 75%;
+    width: 90%;
     height: auto;
     display: block;
     margin: 5% auto 0 auto;
 
     border-radius: 50%;
+}
+
+.homeTitleDiv {
+    padding-top: 2%;
 }
 
 .homeTitleDiv h1 {
@@ -31,11 +36,10 @@
 }
 
 .quoteDiv {
-    /* width: 50%; */
-}
-
-.quoteDiv {
     margin-top: 7%;
+    width: 95%;
+
+    margin: 7% auto;
 }
 
 .quoteDiv h1 {
