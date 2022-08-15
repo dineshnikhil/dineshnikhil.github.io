@@ -1,5 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
 
+:root {
+  /* --bg-color: #F7EBD4;
+  --font-color: #292929;
+  --secondary-color: #DD3C3C;
+  --select-color: #E68F88;
+  --link-color: #595959;
+  --nav-bg: #f7ebd494; */
+  --bg-color: #141B1F;
+  --font-color: #F5F5F5;
+  --secondary-color: #77292D;
+  --select-color: #77292D;
+  --link-color: #B3B3B3;
+  --nav-bg: #141c1f9c;
+  --social-link-color: #F5F5F5;
+  --social-bg-color: black;
+}
+
+[data-theme="light"] {
+  /* --bg-color: #141B1F;
+  --font-color: #F5F5F5;
+  --secondary-color: #77292D;
+  --select-color: #77292D;
+  --link-color: #B3B3B3;
+  --nav-bg: #141c1f9c; */
+  --bg-color: #F7EBD4;
+  --font-color: #292929;
+  --secondary-color: #DD3C3C;
+  --select-color: #E68F88;
+  --link-color: #595959;
+  --nav-bg: #f7ebd494;
+  --social-link-color: black;
+  --social-bg-color: #F5F5F5;
+}
 
 body {
   margin: 0;
@@ -9,8 +42,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 
-  background-color: #141B1F;
-  color: #F5F5F5;
+  background-color: var(--bg-color);
+  color: var(--font-color);
 
   font-family: 'Roboto Mono', monospace;
 }
@@ -21,5 +54,5 @@ code {
 }
 
 ::selection {
-  background-color: #77292D;
+  background-color: var(--select-color);
 }

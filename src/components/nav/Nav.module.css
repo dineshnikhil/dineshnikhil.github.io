@@ -1,5 +1,5 @@
 nav {
-    background-color: #141c1f9c;
+    background-color: var(--nav-bg);
 
     display: flex;
 	justify-content: space-around;
@@ -20,7 +20,7 @@ nav {
 
 .navLinks a {
     text-decoration: none;
-    color: #B3B3B3;
+    color: var(--link-color);
     padding: 0 5%;
 
     font-weight: bold;
@@ -34,8 +34,8 @@ nav {
 
 .setting button{
     background-color: transparent;
-    font-size: 1.2rem;
-    color: white;
+    font-size: 1.3rem;
+    color: var(--font-color);
 
     border: none;
 }

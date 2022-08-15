@@ -1,5 +1,5 @@
 .home {
-    padding: 7% 25% 0% 25%;
+    padding: 11% 25% 0% 25%;
 }
 
 .homeDiv {
@@ -7,6 +7,13 @@
     display: flex;
 }
 
+.homeImageDiv {
+    width: 40%;
+}
+
+.homeTitleDiv {
+    width: 60%;
+}
 
 .homeImageDiv img {
     width: 90%;

@@ -35,7 +35,7 @@
 }
 
 .socialHandles button {
-    padding: 1.5%;
+    /* padding: 1.5%; */
     width: 3rem;
     height: 3rem;
 
@@ -45,12 +45,12 @@
 
     margin-right: 3%;
 
-    background-color: black;
-    color: #F5F5F5;
+    background-color: var(--social-bg-color);
+    color: var(--social-link-color);
 }
 
 .socialHandles button:hover {
-    background-color: #F5F5F5;
+    background-color: var(--social-link-color);
     color: #D33A3A;
 
     cursor: pointer;
