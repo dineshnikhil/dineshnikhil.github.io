@@ -10,6 +10,7 @@ import { faVolumeMute } from '@fortawesome/free-solid-svg-icons'
 import clickSound from '../../audio/click.wav'
 import soundOn from '../../audio/soundOn.wav'
 import soundOff from '../../audio/soundOff.wav'
+import NavLink from '../ui/navlinks/NavLink'
 
 function Nav() {
 
@@ -67,9 +68,9 @@ function Nav() {
   return (
     <nav>
         <div className={classes.navLinks}>
-            <a href="#">Home</a>
-            <a href="#">Projects</a>
-            <a href="#">Fun Talk</a>
+            <NavLink linkName="Home" />
+            <NavLink linkName="Projects" />
+            <NavLink linkName="Fun Talk" />
         </div>
         <div className={classes.setting}>
             <button onClick={modeChangeHandler}>

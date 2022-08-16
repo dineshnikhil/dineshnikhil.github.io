@@ -1,0 +1,21 @@
+.mediaLink {
+    /* width: 4%;
+    height: 4%; */
+    padding: 1.2% 1.7%;
+
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+
+    margin-right: 3%;
+
+    background-color: var(--social-bg-color);
+    color: var(--social-link-color);
+}
+
+.mediaLink:hover {
+    background-color: var(--social-link-color);
+    color: #D33A3A;
+
+    cursor: pointer;
+}

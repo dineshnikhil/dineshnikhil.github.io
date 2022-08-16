@@ -1,11 +1,12 @@
 import React from 'react'
 import myPic from '../../images/meraPic-min.jpg'
 import classes from  './About.module.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+
+import SocialMediaLink from '../ui/socialMediaLinks/SocialMediaLink'
 
 function About() {
   return (
@@ -30,18 +31,10 @@ function About() {
             </div>
         </div>
         <div className={classes.socialHandles}>
-          <button>
-            <FontAwesomeIcon icon={faTwitter} />
-          </button>
-          <button>
-            <FontAwesomeIcon icon={faGithub} />
-          </button>
-          <button>
-            <FontAwesomeIcon icon={faInstagram} />
-          </button>
-          <button>
-            <FontAwesomeIcon icon={faLinkedinIn} />
-          </button>
+          <SocialMediaLink icon={faTwitter} link="https://twitter.com/Dn9Nikhil" />
+          <SocialMediaLink icon={faGithub} link="https://github.com/dineshnikhil" />
+          <SocialMediaLink icon={faInstagram} link="https://www.instagram.com/59dn.sh/" />
+          <SocialMediaLink icon={faLinkedinIn} link="https://www.linkedin.com/in/dineshkumarpokkula/" />
         </div>
     </div>
   )

@@ -1,0 +1,13 @@
+.navLinks {
+    text-decoration: none;
+    color: var(--link-color);
+    padding: 0 5%;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.navLinks:hover {
+    text-decoration: underline;
+    color: #D33A3A;
+}
