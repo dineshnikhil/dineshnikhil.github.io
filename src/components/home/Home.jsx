@@ -1,9 +1,11 @@
 import React from 'react'
 import myPic from '../../images/meraPic-min.jpg'
+import About from '../about/About'
 import classes from './Home.module.css'
 
 function Home() {
   return (
+    <React.Fragment>
     <div className={classes.home}>
         <div className={classes.homeDiv}>
             <div className={classes.homeImageDiv}>
@@ -19,7 +21,8 @@ function Home() {
             <h2>Web Developer. Data Engineer. </h2>
         </div>
     </div>
-    
+    <About />
+    </React.Fragment>
   )
 }
 

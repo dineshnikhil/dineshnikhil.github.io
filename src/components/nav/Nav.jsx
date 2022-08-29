@@ -6,11 +6,11 @@ import { faSun } from '@fortawesome/free-solid-svg-icons'
 import { faMoon } from '@fortawesome/free-solid-svg-icons'
 import { faVolumeHigh } from '@fortawesome/free-solid-svg-icons'
 import { faVolumeMute } from '@fortawesome/free-solid-svg-icons'
+import { NavLink } from 'react-router-dom'
 
 import clickSound from '../../audio/click.wav'
 import soundOn from '../../audio/soundOn.wav'
 import soundOff from '../../audio/soundOff.wav'
-import NavLink from '../ui/navlinks/NavLink'
 
 function Nav() {
 
@@ -67,10 +67,9 @@ function Nav() {
 
   return (
     <nav>
-        <div className={classes.navLinks}>
-            <NavLink linkName="Home" />
-            <NavLink linkName="Projects" />
-            <NavLink linkName="Fun Talk" />
+        <div className={classes.navlink_div}>
+            <NavLink className={classes.navLinks} to="/" onClick={soundOffHandler}>Home</NavLink>
+            <NavLink className={classes.navLinks} to="/funtalk" onClick={soundOffHandler}>Fun talk</NavLink>
         </div>
         <div className={classes.setting}>
             <button onClick={modeChangeHandler}>

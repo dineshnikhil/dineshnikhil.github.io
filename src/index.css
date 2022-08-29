@@ -56,3 +56,24 @@ code {
 ::selection {
   background-color: var(--select-color);
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--font-color); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+  border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--select-color); 
+}

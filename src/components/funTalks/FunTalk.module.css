@@ -1,0 +1,18 @@
+.funtalk_div {
+    padding: 7% 15%;
+}
+
+.talk_link {
+    text-decoration: none;
+    color: var(--link-color);
+    padding: 0 5%;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.talk_link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #D33A3A;
+}
