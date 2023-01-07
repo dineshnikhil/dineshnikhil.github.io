@@ -1,7 +1,7 @@
 nav {
-    background-color: var(--nav-bg);
+	background-color: var(--nav-bg);
 
-    display: flex;
+	display: flex;
 	justify-content: space-around;
 	padding: 1.4rem 3.5rem;
 
@@ -9,39 +9,42 @@ nav {
 	position: fixed;
 	top: 0;
 
-
-    /* background-color: rgba(255, 255, 255, .15);   */
-    backdrop-filter: blur(7px);
+	/* background-color: rgba(255, 255, 255, .15);   */
+	backdrop-filter: blur(7px);
 }
 
 .navlink_div {
-    width: 30%;
+	width: 30%;
 }
 
 .navLinks {
-    text-decoration: none;
-    color: var(--link-color);
-    padding: 0 5%;
+	text-decoration: none;
+	color: var(--link-color);
+	padding: 0 5%;
 
-    font-weight: bold;
-    font-size: 1.2rem;
+	font-weight: bold;
+	font-size: 1.2rem;
 }
 
 .navLinks:hover {
-    text-decoration: underline;
-    color: #D33A3A;
+	text-decoration: underline;
+	color: #d33a3a;
 }
 
-.setting button{
-    background-color: transparent;
-    font-size: 1.3rem;
-    color: var(--font-color);
+.setting button {
+	background-color: transparent;
+	font-size: 1.3rem;
+	color: var(--font-color);
 
-    border: none;
+	border: none;
 }
 
 .setting button:hover {
-    cursor: pointer;
+	cursor: pointer;
 }
 
-
+@media (min-width: 320px) and (max-width: 425px) {
+	nav {
+		padding: 1rem 1rem;
+	}
+}
