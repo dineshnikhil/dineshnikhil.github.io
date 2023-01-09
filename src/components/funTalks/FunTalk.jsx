@@ -5,7 +5,7 @@ import classes from './FunTalk.module.css'
 function FunTalk() {
   return (
     <div className={classes.funtalk_div}>
-        <h1>Topics we talk about here.</h1>
+        <h1>Topics we talk about here. i have changed successfully.</h1>
         <h3 className={classes.talk_link}>Anime Stuff 😶‍🌫️</h3>
         <h3 className={classes.talk_link}>Trending Tech Stuff 🖥️</h3>
         <h3 className={classes.talk_link}>General Talk Stuff 👀</h3>
