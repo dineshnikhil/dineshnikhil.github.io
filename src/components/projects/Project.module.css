@@ -1,0 +1,15 @@
+.projects_div {
+	padding: 7% 15%;
+}
+
+.project_cards_div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+	.projects_div {
+		padding: 20% 10%;
+	}
+}
