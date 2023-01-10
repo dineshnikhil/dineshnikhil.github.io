@@ -12,6 +12,26 @@
 	box-shadow: 3px 3px 5px var(--bg-color);
 }
 
+.project_card_div h3 {
+	color: var(--secondary-color);
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+.read_more_link {
+	color: var(--secondary-color);
+	text-decoration: none;
+}
+
+.read_more_link:hover {
+	cursor: pointer;
+	text-decoration: underline var(--secondary-color);
+}
+
+.navLink_read_more {
+	text-decoration: none;
+}
+
 .project_card_div button {
 	width: 100%;
 	text-align: center;
