@@ -1,7 +1,7 @@
 .project_card_div {
 	/* background-color: var(--secondary-color); */
 	border-radius: 5%;
-	box-shadow: 5px 5px 5px black;
+	box-shadow: 2px 2px 2px black;
 
 	padding: 5%;
 	margin: 2%;
@@ -9,7 +9,7 @@
 }
 
 .project_card_div:hover {
-	box-shadow: 3px 3px 5px var(--bg-color);
+	box-shadow: 2px 2px 2px var(--bg-color);
 }
 
 .project_card_div h3 {
@@ -32,21 +32,27 @@
 	text-decoration: none;
 }
 
+.project_links_div {
+	/* align-items: right; */
+	padding-left: 60%;
+}
+
 .project_card_div button {
-	width: 100%;
+	/* width: 100%; */
 	text-align: center;
-	font-size: 1.1rem;
+	font-size: 1.5rem;
 	border: none;
 	border-radius: 5%;
-	margin: 2%;
-	padding: 5% 0;
+	margin: 4%;
+	padding: 7%;
 
-	background-color: var(--social-bg-color);
+	background-color: transparent;
 	color: var(--social-link-color);
+	align-items: right;
 }
 
 .project_card_div button:hover {
-	background-color: var(--social-link-color);
+	background-color: transparent;
 	color: #d33a3a;
 	cursor: pointer;
 }

@@ -77,13 +77,6 @@ function Nav() {
 				>
 					Work
 				</NavLink>
-				<NavLink
-					className={classes.navLinks}
-					to="/funtalk"
-					onClick={soundOffHandler}
-				>
-					Fun talk
-				</NavLink>
 			</div>
 			<div className={classes.setting}>
 				<button onClick={modeChangeHandler}>

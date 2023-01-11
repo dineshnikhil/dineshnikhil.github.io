@@ -9,6 +9,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function ProjectCard(props) {
 	return (
 		<div className={classes.project_card_div}>
+			<div className={classes.project_links_div}>
+				<button>
+					<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+				</button>
+				<button>
+					<FontAwesomeIcon icon={faGithub} />
+				</button>
+			</div>
 			<h3>{props.obj.name}</h3>
 			<h4>
 				{props.obj.info.slice(0, 101)}...{' '}
@@ -19,12 +27,6 @@ function ProjectCard(props) {
 					<span className={classes.read_more_link}>Read More</span>
 				</NavLink>
 			</h4>
-			<button>
-				visit site <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-			</button>
-			<button>
-				view code <FontAwesomeIcon icon={faGithub} />
-			</button>
 		</div>
 	);
 }
