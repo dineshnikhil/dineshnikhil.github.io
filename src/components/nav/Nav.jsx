@@ -75,7 +75,7 @@ function Nav() {
 					to="/projects"
 					onClick={soundOffHandler}
 				>
-					Work
+					Projects
 				</NavLink>
 			</div>
 			<div className={classes.setting}>

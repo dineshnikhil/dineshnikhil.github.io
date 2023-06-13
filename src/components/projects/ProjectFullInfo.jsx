@@ -12,14 +12,22 @@ function ProjectFullInfo() {
 	return (
 		<div className={classes.project_info_div}>
 			<h1>{projectsData[param.id - 1].name}</h1>
-            <div className={classes.action_btns_div}>
-            <button>
-				visit site <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-			</button>
-			<button>
-				view code <FontAwesomeIcon icon={faGithub} />
-			</button>
-            </div>
+			<div className={classes.action_btns_div}>
+				<a
+					href={projectsData[param.id - 1].url}
+					className={classes.action_btn}
+					target="_blank"
+				>
+					visit site <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+				</a>
+				<a
+					href={projectsData[param.id - 1].codeUrl}
+					className={classes.action_btn}
+					target="_blank"
+				>
+					view code <FontAwesomeIcon icon={faGithub} />
+				</a>
+			</div>
 			<p>{projectsData[param.id - 1].info}</p>
 		</div>
 	);

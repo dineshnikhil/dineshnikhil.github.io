@@ -1,5 +1,5 @@
 .project_card_div {
-	/* background-color: var(--secondary-color); */
+	background-color: var(--secondary-color);
 	border-radius: 5%;
 	box-shadow: 2px 2px 2px black;
 
@@ -13,13 +13,14 @@
 }
 
 .project_card_div h3 {
-	color: var(--secondary-color);
-	font-weight: bold;
+	color: var(--bg-color);
+	font-weight: 800;
 	font-size: 1.3rem;
 }
 
 .read_more_link {
-	color: var(--secondary-color);
+	color: var(--bg-color);
+	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -32,12 +33,16 @@
 	text-decoration: none;
 }
 
+.navLink_read_more:hover {
+	color: #d33a3a;
+}
+
 .project_links_div {
 	/* align-items: right; */
 	padding-left: 60%;
 }
 
-.project_card_div button {
+.link_button {
 	/* width: 100%; */
 	text-align: center;
 	font-size: 1.5rem;
@@ -51,9 +56,9 @@
 	align-items: right;
 }
 
-.project_card_div button:hover {
+.link_button:hover {
 	background-color: transparent;
-	color: #d33a3a;
+	color: var(--bg-color);
 	cursor: pointer;
 }
 
